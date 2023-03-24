@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="indonesia!"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:textSize="40sp"
+
+        />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_below="@+id/judul"
+        android:textAlignment="center"
+
+        />
+
+    <Button
+        android:id="@+id/tombol1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah"
+        android:layout_below="@+id/judul2"
+        android:layout_marginTop="200dp"
+        android:onClick="pindah"
+        />
+
+    <Button
+        android:id="@+id/tombol2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah2"
+        android:layout_below="@+id/tombol1"
+        android:layout_marginTop="10sp"
+        android:onClick="pindah2"
+
+        />
+
+
+</RelativeLayout>
