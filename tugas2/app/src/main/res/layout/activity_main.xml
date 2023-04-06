@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARILAH!"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"
+        android:textSize="40sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="20dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:id="@+id/Angka_Pertama"
+        android:hint="......"
+        android:layout_below="@+id/judul"
+
+        />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="+"
+        android:layout_below="@+id/Angka_Pertama"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="20dp"
+        android:ems="10"
+        android:id="@+id/Angka_Kedua"
+        android:hint="......"
+        android:layout_below="@+id/judul2"
+
+        />
+
+    <Button
+        android:id="@+id/tombol1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="proses"
+        android:layout_below="@+id/Angka_Kedua"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:onClick="proses"
+
+        />
+
+
+</RelativeLayout>
