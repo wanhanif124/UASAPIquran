@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kalimantan">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/pantaimelawai"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="PANTAI MELAWAI"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantai Melawai adalah tempat wisata yang terletak di Desa Prapatan, Kecamatan Balikpapan Kota, Kota Balikpapan, Kalimantan Timur."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/tamannasionaltanjungputing"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="TAMAN NASIONAL TANJUNG PUTING"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taman Nasional Tanjung Puting terletak di semenanjung barat daya tepatnya di Kecamatan Kumai, Kabupaten, Provinsi Kalimantan Tengah. Pada tahun 1936, daerah ini adalah cagar alam dan suaka margasatwa, kemudian ditetapkan sebagai taman nasional pada tahun 1984."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".callcenter">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WA:0888xxxxxxxx"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="website: wisata.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ig:@wisatakunjungan_"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="twitter: kunjunganwisataaaa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30dp"
+
+        />
+
+
+</LinearLayout>

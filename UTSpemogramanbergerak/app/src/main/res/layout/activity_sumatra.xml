@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sumatra">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/danautoba"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="DANAU TOBA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="danau toba adalah danau alami berukuran besar di Indonesia yang berada di kaldera gunung supervulkan."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/candimuaratakus"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="CANDI MUARA TAKUS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Candi Muara Takus adalah sebuah situs candi Buddha yang terletak di desa Muara Takus, Kecamatan XIII Koto, Kabupaten Kampar, Riau, Indonesia. Situs ini berjarak kurang lebih 135 kilometer dari Kota Pekanbaru."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

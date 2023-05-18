@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bali">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/goagajah"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="GOA GAJAH"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goa Gajah adalah gua buatan dari masa purbakala yang berfungsi sebagai tempat ibadah. Gua ini terletak di Desa Bedulu, Kecamatan Blahbatuh, Kabupaten Gianyar, Bali; berjarak kurang lebih 27 km dari Denpasar."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="207dp"
+        android:src="@drawable/pantaikuta"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="-130dp" />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="PANTAI KUTA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantai Kuta adalah sebuah tempat pariwisata yang terletak di kecamatan Kuta sebelah selatan Kota Denpasar, Bali, Indonesia."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
