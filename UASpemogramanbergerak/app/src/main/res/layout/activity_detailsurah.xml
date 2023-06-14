@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detailsurah">
+
+   <TextView
+    android:id="@+id/tvIDSurah"
+    android:text="surah ke -"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center" />
+
+   <TextView
+       android:id="@+id/tvIDSurah2"
+       android:text="id null"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"/>
+
+   <TextView
+       android:id="@+id/tvIDSurah3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="id null"
+       android:textAlignment="center" />
+
+   <TextView
+       android:id="@+id/tvIDSurah4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="id null"
+       android:textAlignment="center" />
+
+
+</LinearLayout>
