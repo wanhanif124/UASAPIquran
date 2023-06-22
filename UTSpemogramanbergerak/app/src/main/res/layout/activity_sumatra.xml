@@ -10,10 +10,7 @@
     <ImageView
         android:layout_width="400dp"
         android:layout_height="207dp"
-        android:src="@drawable/danautoba"
-        android:textAlignment="center"
-        tools:layout_editor_absoluteX="68dp"
-        tools:layout_editor_absoluteY="-130dp" />
+        android:src="@drawable/danautoba" />
 
     <TextView
         android:id="@+id/judul1"
