@@ -1,39 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_height="wrap_content"
     tools:context=".Detailsurah">
 
-   <TextView
-    android:id="@+id/tvIDSurah"
-    android:text="surah ke -"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textAlignment="center" />
-
-   <TextView
-       android:id="@+id/tvIDSurah2"
-       android:text="id null"
+   <RelativeLayout
+       android:id="@+id/relativeLayout2"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:textAlignment="center"/>
+       android:layout_height="190dp"
+       android:padding="20dp"
+       android:background="@drawable/quran"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
 
-   <TextView
-       android:id="@+id/tvIDSurah3"
+      <TextView
+          android:textColor="#FFFFFFFF"
+          android:id="@+id/judul"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:paddingBottom="5dp"
+          android:textSize="25sp"
+          android:text="AL-QURAN"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/jumlahayat"
+          android:textColor="#FFFFFFFF"
+          android:layout_width="match_parent"
+          android:layout_height="29dp"
+          android:layout_below="@+id/judul"
+          android:layout_marginTop="10dp"
+          android:textSize="18sp"
+          android:text="jumlah ayat" />
+
+      <TextView
+          android:textColor="#FFFFFFFF"
+          android:id="@+id/namaarab"
+          android:layout_width="match_parent"
+          android:layout_height="32dp"
+          android:textSize="18sp"
+          android:layout_below="@+id/jumlahayat"
+          android:text="arab" />
+
+      <TextView
+          android:textColor="#FFFFFFFF"
+          android:id="@+id/namasurah"
+          android:layout_width="match_parent"
+          android:layout_height="32dp"
+          android:textSize="18sp"
+          android:layout_below="@+id/namaarab"
+          android:text="nama surah" />
+
+      <TextView
+          android:id="@+id/nosurah1"
+          android:textColor="#FFFFFFFF"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:textStyle="bold"
+          android:textSize="35sp"
+          android:paddingStart="20dp"
+          android:paddingEnd="15dp"
+          android:text="number" />
+
+   </RelativeLayout>
+
+   <androidx.core.widget.NestedScrollView
+       android:id="@+id/nestedScrollView2"
+       android:layout_width="410dp"
+       android:layout_height="501dp"
+       android:layout_marginTop="234dp"
+       android:padding="10dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/rvAyat"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          tools:layout_editor_absoluteY="268dp" />
+
+   </androidx.core.widget.NestedScrollView>
+
+   <Button
+       android:id="@+id/button1"
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="id null"
-       android:textAlignment="center" />
+       android:layout_height="48dp"
+       android:layout_marginTop="189dp"
+       android:text="audio kajian"
+       android:textColor="#FFFFFFFF"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
 
-   <TextView
-       android:id="@+id/tvIDSurah4"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="id null"
-       android:textAlignment="center" />
-
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
